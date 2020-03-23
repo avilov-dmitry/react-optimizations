@@ -7,7 +7,6 @@ import {ComponentWithShouldUpdateStateNotChanged} from "./components/state-in-no
 import {PureComponentStateNotChanged} from "./components/state-in-not-changed/PureComponent";
 
 
-// https://habr.com/ru/company/plarium/blog/442116/
 class App extends React.Component {
     state = {
         count: 0
